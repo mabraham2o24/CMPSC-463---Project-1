@@ -1,4 +1,4 @@
-# <div align="center">Advanced Quick Sort - Combinging Quick and Insertion Sort</div>
+ # <div align="center">Advanced Quick Sort - Combinging Quick and Insertion Sort</div>
 # ***Basis of this Github/Introduction***
 + Advanced Quick Sort algorithm is an algorithm created to combine both the quick sort and insert sort algorthims to create a time efficient sorting method for us to use. It is more beneficial to use when it comes to different types of inputs such as sorted arrays. It implements different method to give the best optimized sorting possible for different inputs. For instance, this hybrid algorithm uses insertion method to sort through small subarrays which prevents overuse of the recursive calls and makes the sorting method much faster.
 + This repository contains a Readme.md file that contains the report. It also has the py file of my code for the algorithms and contains a PDF file of screenshots of my output. 
@@ -30,24 +30,25 @@ The quick sort hybrid algorithm takes quick sort and insertion sort, combining b
 
 # ***Numerical Result and Theoretical Analysis***
 ## Test Cases 1 - 6
-| Test Cases| Advanced Quick Sort Time | Quick Sort Time| Insertion Sort Time|
+| Test Cases| Quick Sort Time | Insertion Sort Time| Advanced Quick Sort Time|
 | -------- | -------  | --------| --------| 
-| Test Case 1  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)| 
-| Test Case 2 |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)| 
-|Test Case 3 |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)| 
-|Test Case 4| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
-|Test Case 5|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)| 
-|Test Case 6| 4.13 (Sec) |4.29 (Sec) |Failed: Max Recusion Depth| 
+| Test Case 1  | 3.43 seconds      | 0.0 (Sec)  | 0.0 (Sec)| 
+| Test Case 2 |  3.40 seconds     |0.0 (Sec)  | 0.0 (Sec)| 
+|Test Case 3 |  2.00 seconds   |0.0025 (Sec)|0.0019 (Sec)| 
+|Test Case 4| 4.05 seconds  |0.029 (Sec)| 0.0189 (Sec) |
+|Test Case 5|  8.11 seconds|0.389 (Sec)| 0.572 (Sec)| 
+|Test Case 6| 1.48 seconds |4.29 (Sec) |Failed: Max Recusion Depth| 
 
 ## Test Cases 7 - 12
-| Test Cases| Advanced Quick Sort Time | Quick Sort Time| Insertion Sort Time|
+| Test Cases| Quick Sort Time | Insertion Sort Time| Advanced Quick Sort Time|
 | -------- | -------  | --------| --------| 
-| Test Case 7  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)| 
-| Test Case 8 |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)| 
-|Test Case 9 |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)| 
-|Test Case 10| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
-|Test Case 11|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)| 
-|Test Case 12| 4.13 (Sec) |4.29 (Sec) |Failed: Max Recusion Depth| 
+| Test Case 7  | 0.003 seconds      | 0.0 (Sec)  | 0.0 (Sec)| 
+| Test Case 8 |  5.18 seconds     |0.0 (Sec)  | 0.0 (Sec)| 
+|Test Case 9 |  1.88 seconds   |0.0025 (Sec)|0.0019 (Sec)| 
+|Test Case 10| 0.003 seconds  |0.029 (Sec)| 0.0189 (Sec) |
+|Test Case 11|  2.63 seconds|0.389 (Sec)| 0.572 (Sec)| 
+|Test Case 12| 3.35 seconds |4.29 (Sec) |Failed: Max Recusion Depth| 
+
 ## Time Complexity For Advanced Quick Sort 
 | Best Case| Average Case| Worse Case| 
 | -------- | -------  | --------|
