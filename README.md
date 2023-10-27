@@ -1,4 +1,4 @@
- # <div align="center">Advanced Quick Sort - Combinging Quick and Insertion Sort</div>
+ # <div align="center">Advanced Quick Sort - Combining Quick and Insertion Sort</div>
 # ***Basis of this Github/Introduction***
 + Advanced Quick Sort algorithm is an algorithm created to combine both the quick sort and insert sort algorthims to create a time efficient sorting method for us to use. It is more beneficial to use when it comes to different types of inputs such as sorted arrays. It implements different method to give the best optimized sorting possible for different inputs. For instance, this hybrid algorithm uses insertion method to sort through small subarrays which prevents overuse of the recursive calls and makes the sorting method much faster.
 + This repository contains a Readme.md file that contains the report. It also has the py file of my code for the algorithms and contains a PDF file of screenshots of my output. 
