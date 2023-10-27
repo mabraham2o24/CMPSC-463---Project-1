@@ -13,13 +13,58 @@ The quick sort hybrid algorithm takes quick sort and insertion sort, combining b
   + **Partition Function (partition)**
       + Used by the quick sort funtion to divide the array into two parts. It has an array, a lower index, and an upper index as its paramters('arr', 'low', and 'high').
       + The last element of the array('high') is chosen as the pivot element. The last element is chosen because it is the easiest way to get the pivot element without having to do other methods or calculations. 
-      + Elements are arranged so that the ones less than the 
+      + Elements are arranged so that the ones less than the pivot is put to the right and the one that is greater than the pivot is put to the right. After all of that is done the pivot will be placed at the correct position.
+  + **Quick Sort(quick_sort)**
+      + This is a recursive implemention of the quick sort algorithm that takes an array , a lower index, and an upper index('arr', 'low', and 'high').
+      + If the array has no elements or only one element, it is considered sorted, and the function returns. This is because in either scenarios there is nothing to sort and everything is in the right position.
+      + If there is more than one element, using the partition function it chooses the pivot. Then the array is partitioned into two subarrays and quick sort is applied to each subarray.
+    + **Hybrid Quick Sort(hybrid_quick_sort)**
+      + This function combines the quick sort and insertion sort algorithms. It also takes an array, a lower index, and an upper index('arr', 'low', 'high').
+      + It checks if the size of the array('high - low + 1') is less than a certaim threshold meaning the size that determines what method(quick sort or insertion sort) should be used to sort the subarray.
+      + If the size is smaller, insertion sort is used to sort the subarray because this method is more optimal for small subarrays. If the size is larger, then it will sort the subarray using quick sort.
+      + This function also uses 'partition' function to find the pivot element and applies the Quick Sort to the left and right subarrays in ways where the small subarray first.  
     
 
 # ***Benchmarking Results***
-+ start here
+
 
 # ***Numerical Result and Theoretical Analysis***
-+ start here
+## Test Cases 1 - 6
+| Test Cases| Advanced Quick Sort Time | Quick Sort Time| Insertion Sort Time|
+| -------- | -------  | --------| --------| 
+| Test Case 1  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)| 
+| Test Case 2 |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)| 
+|Test Case 3 |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)| 
+|Test Case 4| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
+|Test Case 5|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)| 
+|Test Case 6| 4.13 (Sec) |4.29 (Sec) |Failed: Max Recusion Depth| 
+
+## Test Cases 7 - 12
+| Test Cases| Advanced Quick Sort Time | Quick Sort Time| Insertion Sort Time|
+| -------- | -------  | --------| --------| 
+| Test Case 7  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)| 
+| Test Case 8 |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)| 
+|Test Case 9 |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)| 
+|Test Case 10| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
+|Test Case 11|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)| 
+|Test Case 12| 4.13 (Sec) |4.29 (Sec) |Failed: Max Recusion Depth| 
+## Time Complexity For Advanced Quick Sort 
+| Best Case| Average Case| Worse Case| 
+| -------- | -------  | --------|
+| Test Case 1  | 0.0 (Sec)      | 0.0 (Sec)  |
+
+## Time Complexity For Quick Sort 
+| Best Case| Average Case| Worse Case| 
+| -------- | -------  | --------|
+| Test Case 1  | 0.0 (Sec)      | 0.0 (Sec)  |
+
+## Time Complexity For Insertion Sort 
+| Best Case| Average Case| Worse Case| 
+| -------- | -------  | --------|
+| Test Case 1  | 0.0 (Sec)      | 0.0 (Sec)  |
+
+
+
+
 
 
