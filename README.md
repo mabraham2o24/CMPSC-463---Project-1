@@ -27,20 +27,20 @@ The quick sort hybrid algorithm takes quick sort and insertion sort, combining b
 
 # ***Benchmarking Results***
 ## 12 TEST CASES USED FOR HYBRID, QUICK SORT, & INSERTION SORT ALGORITHM - CODE
-![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/b261fc2f-bd9e-4291-a4b6-c6cf6b16440c)
+![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/bf64f007-464a-478e-9e71-e2ee2a771c58)
 
-![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/fa3a58e1-0f7b-4e9e-a595-b95da267172d)
+![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/e71eb079-ae42-4528-98c2-b59d5ce040c7)
 
-![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/fb41b7cd-3bda-40a6-83f1-c30de061b502)
+![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/5f537a32-bdbf-42af-8881-a9f5bcd2b4e8)
 
 ## RESULTS FOR THE 12 TEST CASES - ADVANCED QUICK SORT 
-![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/7531f5b8-4c04-41ae-a73f-98f4af143ad6)
+![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/776c28a1-e054-41ee-8785-b94100b9433c)
 
 ## RESULTS FOR THE 12 TEST CASES - QUICK SORT
-![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/63585db1-3795-4cc2-9767-a6ab99b52bd8)
+![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/f021636e-f7c0-4143-a7a4-f6c67c27b777)
 
 ## RESULTS FOR THE 12 TEST CASES - INSERTION SORT
-![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/1b7a1749-fd47-44cd-8e35-e5fd68d428b1)
+![image](https://github.com/mabraham2o24/CMPSC-463---Project-1/assets/143213640/b11779c4-585b-4d4c-88c6-cc5515a169ca)
 
 -----------------------------------------------------------------------------------
 
