@@ -30,7 +30,7 @@ The quick sort hybrid algorithm takes quick sort and insertion sort, combining b
 
 # ***Numerical Result and Theoretical Analysis***
 ## Test Cases 1 - 6
-| Test Cases| Quick Sort Time | Insertion Sort Time| Advanced Quick Sort Time|
+| Test Cases| Advanced Quick Sort Time | Insertion Sort Time| Quick Sort Time|
 | -------- | -------  | --------| --------| 
 | Test Case 1  | 3.43 seconds      | 0.0 (Sec)  | 0.0 (Sec)| 
 | Test Case 2 |  3.40 seconds     |0.0 (Sec)  | 0.0 (Sec)| 
@@ -40,7 +40,7 @@ The quick sort hybrid algorithm takes quick sort and insertion sort, combining b
 |Test Case 6| 1.48 seconds |4.29 (Sec) |Failed: Max Recusion Depth| 
 
 ## Test Cases 7 - 12
-| Test Cases| Quick Sort Time | Insertion Sort Time| Advanced Quick Sort Time|
+| Test Cases| Advanced Quick Sort Time| Insertion Sort Time| Quick Sort Time|
 | -------- | -------  | --------| --------| 
 | Test Case 7  | 0.003 seconds      | 0.0 (Sec)  | 0.0 (Sec)| 
 | Test Case 8 |  5.18 seconds     |0.0 (Sec)  | 0.0 (Sec)| 
@@ -63,6 +63,8 @@ The quick sort hybrid algorithm takes quick sort and insertion sort, combining b
 | Best Case| Average Case| Worse Case| 
 | -------- | -------  | --------|
 | Test Case 1  | 0.0 (Sec)      | 0.0 (Sec)  |
+
+
 
 
 
