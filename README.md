@@ -1,4 +1,6 @@
-# <div align="center">Title of the Project</div>
+# <div align="center">Advanced Quick Sort - Combinging Quick and Insertion Sort</div>
+# ***Basis of this Github/Introduction***
++ 
 # ***Project Goals***
 1. start here
 
